@@ -22,3 +22,5 @@ Route::get('about-us', function () {
 Route::get('reporting', function () {
 	return 'reporting here..';
 });
+
+Route::get('students', 'StudentsController');
